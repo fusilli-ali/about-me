@@ -90,10 +90,17 @@ a:hover {
   color: #10BFA1;
 }
 @media only screen and (max-width: 700px) {
+    body {
+        background-color: pink;
+    }
     .masthead {
         padding: 3em 0;
     }
    .masthead-heading { 
     font-size: 3em
 }
+    .social li {
+        font-size: 1rem;
+        margin: auto 0;
+    }
 }
