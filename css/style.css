@@ -90,14 +90,39 @@ a:hover {
   color: #10BFA1;
 }
 @media only screen and (max-width: 700px) {
-    body {
-        background-color: pink;
-    }
+   body {
+    background-color: pink;
+   }
     .masthead {
         padding: 3em 0;
     }
    .masthead-heading { 
     font-size: 3em
+}
+    .social li {
+        font-size: 1rem;
+        margin: auto 0;
+    }
+}
+@media only screen and (max-width: 800px) {
+   body {
+    background-color: lightblue;
+   }
+.masthead {
+    padding: 4em 0;
+    border-top: solid 1em hotpink;
+    border-bottom: solid 1em hotpink;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: lightgray;
+    }
+    .masthead {
+        padding: 5em 0;
+    }
+   .masthead-heading { 
+    font-size: 4em
 }
     .social li {
         font-size: 1rem;
